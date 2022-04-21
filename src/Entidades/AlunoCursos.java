@@ -14,4 +14,17 @@ public class AlunoCursos {
 		this.alunoCursos = new HashMap<>();
 		this.alunoCursos.put(aluno, cursos);
 	}
+	
+	public HashMap<Aluno, List<Curso>> getAlunoCursos(){
+		return this.alunoCursos;
+	}
+	
+	
+	public void setAlunoCursos(HashMap<Aluno, List<Curso>> alunoCursos){
+		this.alunoCursos = alunoCursos;
+	}
+	
+	public void editarCursosDoAluno() {
+		
+	}
 }
