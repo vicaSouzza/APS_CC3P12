@@ -34,7 +34,7 @@ public class AlunoCursos {
 		return this.alunosCursos;
 	}
 	
-	public void editarCursosDoAluno() {
+	public void editarCursosDoAluno(int idAluno, List<Curso> novaListaDeCursos) {
 		
 	}
 }
