@@ -41,7 +41,9 @@ public class AlunoCursos {
 				List<Curso> value = _alunoCursoEntry.getValue();
 				
 				if(key.getId() == idAluno) {
-					
+					value = novaListaDeCursos;
+					Map<Aluno, List<Curso>> alunoCursoAtualizado = new Map<Aluno, List<Curso>>();
+					alunoCursoAtualizado.put(key, novaListaDeCursos);
 				}
 			}
 		}
