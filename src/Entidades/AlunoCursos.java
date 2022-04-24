@@ -35,6 +35,15 @@ public class AlunoCursos {
 	}
 	
 	public void editarCursosDoAluno(int idAluno, List<Curso> novaListaDeCursos) {
-		
+		for(int i = 0; i < this.alunosCursos.size(); i++) {
+			for(Map.Entry<Aluno, List<Curso>> _alunoCursoEntry : this.alunosCursos.get(i).entrySet()) {
+				Aluno key = _alunoCursoEntry.getKey();
+				List<Curso> value = _alunoCursoEntry.getValue();
+				
+				if(key.getId() == idAluno) {
+					
+				}
+			}
+		}
 	}
 }
