@@ -9,7 +9,7 @@ import Repository.CursoRepository;
 
 public class AlunoCursoController {
 	
-	private CursoRepository cursoRepository;
+	/**private CursoRepository cursoRepository;
 	private AlunoRepository alunoRepository;
 	
 	public AlunoCursoController(CursoRepository cRepository, AlunoRepository aRepository) {
@@ -43,6 +43,6 @@ public class AlunoCursoController {
 			System.out.println(e.getMessage()+"/n"+e.getStackTrace());
 			return;
 		}
-	}
+	}*/
 	
 }

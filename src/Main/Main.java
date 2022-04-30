@@ -8,11 +8,13 @@ import Service.AlunoService;
 
 public class Main {
 	public static void main(String[] args) {
-		private AlunoRepository alunoRepository = new AlunoRepository();
-		private AlunoController alunoController = new AlunoController();
-		
-		private CursoRepository cursoRepository = new CursoRepository();
-		private CursoController cursoController = new CursoController();
+		/**
+		 * private AlunoRepository alunoRepository = new AlunoRepository();
+		 * 		private AlunoController alunoController = new AlunoController();
+		 *
+		 * 		private CursoRepository cursoRepository = new CursoRepository();
+		 * 		private CursoController cursoController = new CursoController();*/
+
 		
 		
 	}
