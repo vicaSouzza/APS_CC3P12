@@ -1,5 +1,5 @@
 package Repository;
 
-public interface AlunoRepository {
-	
+public class AlunoRepository{
+
 }

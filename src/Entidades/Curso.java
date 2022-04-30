@@ -1,12 +1,12 @@
-package entidade;
+package Entidades;
 
 public class Curso{
 	
 	private String nivel;
 	private String nome;
-    private Integer ano;
+    private int ano;
 	
-	public Curso (String nivel,Integer ano, String nome) {
+	public Curso (String nivel,int ano, String nome) {
 		this.nivel = nivel;
 		this.nome = nome;
         this.ano= ano;
@@ -17,13 +17,13 @@ public class Curso{
 	}
 
     public String getNome() {
-		return nome;
+		return this.nome;
 
     }
 
 
-    public String getAno() {
-		return ano;
+    public int getAno() {
+		return this.ano;
 
     }
 
@@ -40,3 +40,4 @@ public class Curso{
     public void setAno(Integer ano) { 
 		this.ano = ano;
 	}
+}

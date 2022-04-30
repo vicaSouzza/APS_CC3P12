@@ -1,4 +1,6 @@
 package Repository;
 
-public interface CursoRepository {
+public class CursoRepository{
+
+
 }

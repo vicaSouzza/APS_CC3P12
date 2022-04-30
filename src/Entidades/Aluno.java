@@ -1,12 +1,11 @@
-
-package entidade;
+package Entidades;
 
 public class Aluno{
 	
 	private String id;
 	private String nome;
     
-	public Curso (String id, String nome) {
+	public Aluno (String id, String nome) {
 		this.id = id;
 		this.nome = nome;
         
@@ -21,10 +20,6 @@ public class Aluno{
 
     }
 
-
-    
-
-
 	public void setId (String id) {
 		this.id = id;
     }    
@@ -32,3 +27,4 @@ public class Aluno{
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+}
