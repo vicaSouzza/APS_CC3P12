@@ -26,7 +26,7 @@ public class CursoService {
     }
 
     /**
-     * Retorna os cursos por nome de aluno
+     * Retorna uma lista de cursos por nome de aluno
      * */
     public List<Curso> getCursosByAluno(String nome){
         return cursoRepository.getAlunosByCursos(nome);

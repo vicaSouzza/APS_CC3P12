@@ -24,7 +24,7 @@ public class AlunoService {
     }
 
     /**
-     * Retorna os alunos por nome de curso
+     * Retorna uma lista de alunos por nome de curso
      * */
     public List<Aluno> getAlunosByCurso(String curso){
         return repository.getAlunosByCurso(curso);
