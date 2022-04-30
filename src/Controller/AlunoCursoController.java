@@ -4,22 +4,22 @@ import java.util.List;
 
 import Entidades.Aluno;
 import Entidades.Curso;
-import Service.AlunoService;
-import Service.CursoService;
+import Repository.AlunoRepository;
+import Repository.CursoRepository;
 
 public class AlunoCursoController {
 	
-	private CursoService cursoService;
-	private AlunoService alunoService;
+	private CursoRepository cursoRepository;
+	private AlunoRepository alunoRepository;
 	
-	public AlunoCursoController(CursoService cService, AlunoService aService) {
-		cursoService = cService;
-		alunoService = aService;
+	public AlunoCursoController(CursoRepository cRepository, AlunoRepository aRepository) {
+		cursoService = cRepository;
+		alunoRepository = aRepository;
 	}
 	
 	public void alterarCursoDoAluno(int idAluno, Curso cursoAlterado) {
 		try {
-			Aluno alunoDoBanco = alunoService.getAlunoById(idAluno);
+			Aluno alunoDoBanco = alunoRepository.getAlunoById(idAluno);
 			if(idAluno > 0 && alunoDoBanco != null) {
 				boolean cursoExistente = false;
 				List<Curso> cursosJaExistentes = cursoService.getCursosDoAlunoPorId(idAluno);
